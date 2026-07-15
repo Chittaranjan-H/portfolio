@@ -1,72 +1,134 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio | Chittaranjan</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link rel="icon" type="image/png" href="/images/favicon.webp">
+<!-- Open Graph Meta Tags for Social Media Sharing -->
+    <meta property="og:title" content="My Portfolio | Soumik">
+    <meta property="og:description" content="Full stack developer specializing in React, Node.js, and modern web technologies. Available for freelance projects and collaborations.">
+    <meta property="og:image" content="images/profile.jpg">
+    <meta property="og:url" content="[Your Portfolio URL]">
+    <meta property="og:type" content="website">
 
+     <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="My Portfolio | Chittaranjan">
+    <meta name="twitter:description" content="Full stack developer specializing in React, Node.js, and modern web technologies. Available for freelance projects and collaborations.">
+    <meta name="twitter:image" content="images/profile.jpg">
+ 
+
+    <!-- SEO meta tags -->
+    <meta
+      name="description"
+      content="Full stack developer specializing in React, Node.js, and modern web technologies. Available for freelance projects and collaborations."
+    />
+    <meta
+      name="keywords"
+      content="Chittaranjan, Portfolio, Web Developer, React, Node.js, JavaScript, HTML, CSS, Freelance Developer"
+    />
+    <meta name="author" content="Chittaranjan" />
+  </head>
+
+  <body>
     <!-- NAVIGATION -->
     <nav>
-        <a href="#about">About</a>
-        <a href="#skills">Skills</a>
-        <a href="#projects">Projects</a>
-        <a href="#contact">Contact</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
     </nav>
 
     <!-- HERO SECTION -->
     <header>
-        <h1>Hi, I'm Chittaranjan</h1>
-        <p>I'm a passionate web developer from shivamogga.</p>
-        <a href="#contact" class="btn">Hire Me</a>
+      <h1>Hi, I'm Chittaranjan</h1>
+      <p>I'm a passionate web developer from shivamogga.</p>
+      <a href="#contact" class="btn">Hire Me</a>
     </header>
 
     <!-- ABOUT SECTION -->
     <section id="about">
-        <h2>About Me</h2>
-        <img src="profile.webp" alt="chittaranjan's Profile Picture" width="200" height="200">
-        <p>I love building things on the web. Currently learning HTML, CSS, 
-        JavaScript, and React.</p>
+      <h2>About Me</h2>
+
+      <p>
+        I love building things on the web. Currently learning HTML, CSS,
+        JavaScript, and React.
+      </p>
     </section>
+    <!-- figure and fig caption -->
+    <figure>
+      <img
+        src="/images/profile.webp"
+        alt="chittaranjan's Profile Picture"
+        width="200"
+        height="250"
+      />
+      <figcaption>image of a person</figcaption>
+    </figure>
 
     <!-- SKILLS SECTION -->
     <section id="skills">
-        <h2>Skills</h2>
-        <ul>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JavaScript</li>
-            <li>React</li>
-        </ul>
+      <h2>Skills</h2>
+      <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>React</li>
+      </ul>
     </section>
 
     <!-- PROJECTS SECTION -->
     <section id="projects">
-        <h2>Projects</h2>
-        <div class="project-card">
-            <h3>Project 1</h3>
-            <p>A simple web application built with HTML, CSS, and JavaScript.</p>
-            <a href="#" class="btn">View Project</a>
-            <h3>Project 2 </h3>
-            <p>AI summariser using OLLAMA  </p>
-            <a href="https://github.com/Chittaranjan-H/ai_automation">View Project</a>
-        </div>
+      <h2>Projects</h2>
+      <div class="project-card">
+        <h3>Project 1</h3>
+        <p>A simple web application built using HTML, CSS, and JavaScript.</p>
+        <iframe
+          height="169"
+          width="300"
+          title="YouTube video player"
+          allowfullscreen
+          src="https://www.youtube.com/embed/UjP9mteVJmg"
+        ></iframe>
+        <a
+          href="https://imgs.search.brave.com/RDOkK-G7dRwKOHWv4vnB6s557afJ4aVAR3-Kp9RiroQ/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9zdGF0/aWMwLm1ha2V1c2Vv/ZmltYWdlcy5jb20v/d29yZHByZXNzL3dw/LWNvbnRlbnQvdXBs/b2Fkcy8yMDIxLzA2/L1NpbXBsZS1DYWxj/dWxhdG9yLXVzaW5n/LUhUTUwtQ1NTLWFu/ZC1KYXZhU2NyaXB0/LTEucG5nP3E9NTAm/Zml0PWNyb3Amdz04/MjUmZHByPTEuNQ"
+        >
+          project-Demo</a
+        >
+
+        <h3>Project 2</h3>        
+        <p>AI Summariser Using OLLAMA</p>
+        <a href="https://github.com/Chittaranjan-H/ai_automation"
+          >View Project</a
+        >
+      </div>
     </section>
 
     <!-- CONTACT SECTION -->
     <section id="contact">
-        <h2>Contact Me</h2>
-        <p>Email: <a href="mailto:Chittaranjanch74@gmail.com">chittaranjanch74@gmail.com</a></p>
-        <p>Github : <a href="https://github.com/Chittaranjan-H"> github.com/Chittaranjan-H</a></p>
-        <p>LinkedIn : <a href="https://www.linkedin.com/in/chittaranjan-h/">chittaranjan-h</a></p>
+      <h2>Contact Me</h2>
+      <p>
+        Email:
+        <a href="mailto:Chittaranjanch74@gmail.com"
+          >chittaranjanch74@gmail.com</a
+        >
+      </p>
+      <p>
+        Github :
+        <a href="https://github.com/Chittaranjan-H">
+          github.com/Chittaranjan-H</a
+        >
+      </p>
+      <p>
+        LinkedIn :
+        <a href="https://www.linkedin.com/in/chittaranjan-h/">chittaranjan-h</a>
+      </p>
     </section>
 
     <!-- FOOTER -->
     <footer>
-        <p>© 2026 Chittaranjan H. All rights reserved.</p>
+      <p>© 2026 Chittaranjan H. All rights reserved.</p>
     </footer>
-
-</body>
+  </body>
 </html>
